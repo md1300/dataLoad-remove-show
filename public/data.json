@@ -1,0 +1,114 @@
+[
+    {
+       "id": 1,
+       "img": "https://i.ibb.co/K9TnLQ8/nordwood-themes-wtev-Vf-GYwn-M-unsplash.jpg",
+       "title": "Savory Stuffed Bell Peppers",
+       "description": "Delicious bell peppers stuffed with seasoned ground beef, rice, and topped with melted cheese.",
+       "ingredients": [
+           "4 large bell peppers",
+           "1 lb ground beef",
+           "1 cup cooked rice",
+           "1 onion, diced",
+           "1 cup tomato sauce",
+           "1 cup shredded cheddar cheese",
+           "Salt and pepper to taste"
+       ],
+       "time":  40 ,
+      
+       "calories": " 350"
+   },
+    {
+       "id": 2,
+       "img": "https://i.ibb.co/hfZ5sGJ/fernanda-martinez-i7o-Mgm2-EWr-E-unsplash.jpg",
+       "title": "Creamy Garlic Mushroom Chicken",
+       "description": "Tender chicken breasts cooked in a creamy garlic mushroom sauce, perfect for a cozy dinner.",
+       "ingredients": [
+           "4 boneless, skinless chicken breasts",
+           "2 cups sliced mushrooms",
+           "4 cloves garlic, minced",
+           "1 cup heavy cream",
+           "1/2 cup chicken broth",
+           "2 tablespoons butter",
+           "Salt and pepper to taste"
+       ],
+       "time": "25 ",
+
+       "calories": " 400"
+   },
+    {
+       "id": 3,
+       "img": "https://i.ibb.co/ZXFLQq8/food-photographer-jennifer-pallian-8p-Ujh-Bm4c-Lw-unsplash.jpg",
+       "title": "Mango Avocado Salad",
+       "description": "A refreshing salad combining sweet mangoes, creamy avocado, and tangy lime dressing.",
+       "ingredients": [
+           "2 ripe mangoes, diced",
+           "2 ripe avocados, diced",
+           "1/4 cup red onion, thinly sliced",
+           "2 tablespoons chopped cilantro",
+           "Juice of 2 limes",
+           "2 tablespoons olive oil",
+           "Salt and pepper to taste"
+       ],
+       "time": " 30" ,
+     
+       "calories": " 250"
+   },
+    {
+       "id": 4,
+       "img": "https://i.ibb.co/NmMdMxM/brooke-lark-08b-OYn-H-r-E-unsplash.jpg",
+       "title": "Spaghetti Carbonara",
+       "description": "Classic Italian pasta dish featuring spaghetti tossed in a creamy egg and bacon sauce.",
+       "ingredients": [
+           "12 oz spaghetti",
+           "4 eggs",
+           "1 cup grated Parmesan cheese",
+           "8 slices bacon, chopped",
+           "4 cloves garlic, minced",
+           "Salt and pepper to taste",
+           "Chopped parsley for garnish"
+       ],
+       "time":"15",
+      
+       "calories": "500"
+   },
+   {
+       "id": 5,
+       "img": "https://i.ibb.co/YLTKRzC/calum-lewis-v-A1-L1j-RTM70-unsplash.jpg",
+       "title": "Honey Mustard Glazed Salmon",
+       "description": "Flaky salmon fillets glazed with a sweet and tangy honey mustard sauce, baked to perfection.",
+       "ingredients": [
+           "4 salmon fillets",
+           "1/4 cup honey",
+           "2 tablespoons Dijon mustard",
+           "2 tablespoons soy sauce",
+           "2 cloves garlic, minced",
+           "1 tablespoon olive oil",
+           "Salt and pepper to taste"
+       ],
+       "time":  "15" ,
+      
+       "calories": "300"
+   },
+    {
+       "id": 6,
+       "img": "https://i.ibb.co/tZPLg5v/katie-smith-u-Qs1802-D0-CQ-unsplash.jpg",
+       "title": "Vegetable Stir Fry",
+       "description": "A colorful and healthy stir fry featuring a variety of fresh vegetables tossed in a savory sauce.",
+       "ingredients": [
+           "2 cups broccoli florets",
+           "1 red bell pepper, sliced",
+           "1 yellow bell pepper, sliced",
+           "1 cup snap peas",
+           "1 carrot, julienned",
+           "3 tablespoons soy sauce",
+           "2 tablespoons hoisin sauce",
+           "2 cloves garlic, minced",
+           "1 tablespoon ginger, minced",
+           "2 tablespoons vegetable oil",
+           "Cooked rice for serving"
+       ],
+       "time":"10",
+     
+       "calories": " 200"
+   }
+]
