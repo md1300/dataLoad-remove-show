@@ -93,7 +93,9 @@ const totalCalories=caloriesInfo=>{
       )}
      <h1>set new time : {times} minute</h1>
 
-     <h1>TotalCalories : </h1>
+     <p>total calories amount</p>
+
+     <h1>TotalCalories : {caloriesAmount} calories </h1>
       
     </>
   )
