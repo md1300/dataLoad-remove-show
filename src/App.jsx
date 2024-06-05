@@ -9,7 +9,8 @@ function App() {
   const [data,setData]=useState([])
   const [useData,setUseData]=useState([])
   const [newDataShows,setNewDataShow]=useState([])
- const [times,setTimes]=useState([])
+ const [times,setTimes]=useState(0)
+ const [caloriesAmount,setCaloriesAmount]=useState(0)
   
 
   useEffect(()=>{
@@ -44,11 +45,14 @@ const handleSetNewData=(newData)=>{
 }
  
 const totalExpendTime=(time)=>{
-   const newTime=[...times,time]
+  // console.log(time)
 
-   setTimes(newTime)
-   
-  
+setTimes(times+parseInt(time.time))
+}
+
+const totalCalories=caloriesInfo=>{
+  // console.log(caloriesInfo)
+  setCaloriesAmount(caloriesAmount+parseInt(caloriesInfo.calories))
 }
 
 
@@ -65,6 +69,8 @@ const totalExpendTime=(time)=>{
      {
       data.map(datum=><div key={datum.id}>
         <h1>{datum.title}</h1>
+        <h4>times:{datum.time}minute</h4>
+        <h4>calories : {datum.calories}</h4>
         <button onClick={()=>{handleUseData(datum)}}>want to cook</button>
       </div>)
     
@@ -75,7 +81,7 @@ const totalExpendTime=(time)=>{
       {
         useData.map(useDatum=><div key={useDatum.id}>
           <h1>new data : {useDatum.title}</h1>
-          <button onClick={()=>{handleRemoveData(useDatum);handleSetNewData(useDatum);totalExpendTime(useDatum)}}>confirm data </button>
+          <button onClick={()=>{handleRemoveData(useDatum);handleSetNewData(useDatum);totalExpendTime(useDatum);totalCalories(useDatum)}}>confirm data </button>
           </div>)
       }
      <p>new confirm data</p>
@@ -85,7 +91,9 @@ const totalExpendTime=(time)=>{
           <h1>{newDataShow.title}</h1>
         </div>
       )}
-     <h1>set new time</h1>
+     <h1>set new time : {times} minute</h1>
+
+     <h1>TotalCalories : </h1>
       
     </>
   )
